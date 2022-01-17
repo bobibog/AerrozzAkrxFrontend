@@ -1,0 +1,28 @@
+.header {
+    height: 72px;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 150px 0 80px;
+
+    &-link {
+        padding-left: 90px;
+        margin-right: auto;
+
+        &-arrowDown {
+            margin-left: 5px;
+        }
+    }
+
+   
+
+    .option {
+        padding: 10px 15px;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+      }
+  }
